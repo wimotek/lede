@@ -34,18 +34,18 @@
 
 		led_red: red {
 			label = "jdcloud:red:sys";
-			gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 6 GPIO_ACTIVE_LOW>;
 			panic-indicator;
 		};
 
 		led_green: green {
 			label = "jdcloud:green:sys";
-			gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 8 GPIO_ACTIVE_LOW>;
 		};
 
 		led_blue: blue {
 			label = "jdcloud:blue:sys";
-			gpios = <&gpio0 12 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio 12 GPIO_ACTIVE_LOW>;
 		};
 	};
 };
